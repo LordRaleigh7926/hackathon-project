@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom';
 
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 
-const key = "AIzaSyDjVlYl8PzfMDBGOcnswN_zThmbrSb241k"; 
+const key = ""; 
 
 const genAI = new GoogleGenerativeAI(key);
 const model = genAI.getGenerativeModel({ model: "gemini-pro"});
